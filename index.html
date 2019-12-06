@@ -36,6 +36,30 @@
 
 						<!-- Record -->
 							<article id="record" class="panel">
+									<style type="text/css">
+
+										/*自動隱藏超出長寬的圖片*/
+										.post  {
+										overflow: hidden;
+										width: 300px;
+										height: 200px;
+										}
+										
+										/*轉場的時間*/
+										.post img {
+										transition: all 0.5s ease 0s;
+										}
+										
+										/*判斷滑鼠的動作放大圖片還有增加透明度*/
+										.post img:hover {
+										-moz-transform: scale(1.05);
+										-ms-transform: scale(1.05);
+										-o-transform: scale(1.05);
+										-webkit-transform: scale(1.05);
+										transform: scale(1.05);
+										opacity: .5;
+										}
+										</style>
 								<header>
 									<h2>班級紀錄</h2>
 								</header>
@@ -47,7 +71,7 @@
 									<div class="row">
 										<h3>2019/09/16-17公民訓練</h3>
 										<div class="pic">
-											<a href="https://drive.google.com/drive/u/0/folders/1i-bl_wEbLx7qspZ4RdlunpTLbU2C4qgk" title="公民訓練"><img src="images/20190917.jpg" width=540 height=360 alt="2019-09-17"></a>
+											<a href="https://drive.google.com/drive/u/0/folders/1i-bl_wEbLx7qspZ4RdlunpTLbU2C4qgk" title="公民訓練"><img src="images/20190917.jpg" width=300 height=200 alt="2019-09-17"></a>
 										</div>
 									</div>
 								</section>
